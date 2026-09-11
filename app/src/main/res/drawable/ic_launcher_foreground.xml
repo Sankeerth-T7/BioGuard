@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Leaf body with rich vibrant tones -->
+    <path
+        android:pathData="M54,26 C68,26 78,36 78,50 C78,66 64,76 54,82 C44,76 30,66 30,50 C30,36 40,26 54,26 Z"
+        android:fillColor="#4ADE80" />
+    <!-- Leaf inner half shadow for depth -->
+    <path
+        android:pathData="M54,26 C68,26 78,36 78,50 C78,66 64,76 54,82 L54,26 Z"
+        android:fillColor="#22C55E" />
+    <!-- Leaf central vein -->
+    <path
+        android:pathData="M54,30 L54,78"
+        android:strokeWidth="2.5"
+        android:strokeColor="#14532D"
+        android:strokeLineCap="round" />
+    <!-- Leaf side veins -->
+    <path
+        android:pathData="M54,42 L64,36 M54,52 L66,45 M54,62 L63,56 M54,42 L44,36 M54,52 L42,45 M54,62 L45,56"
+        android:strokeWidth="2"
+        android:strokeColor="#14532D"
+        android:strokeLineCap="round" />
+    <!-- Small seedling sprout accent -->
+    <path
+        android:pathData="M54,82 C52,84 48,86 46,85 C44,83 46,80 50,79"
+        android:strokeWidth="2"
+        android:strokeColor="#86EFAC"
+        android:strokeLineCap="round" />
+</vector>
